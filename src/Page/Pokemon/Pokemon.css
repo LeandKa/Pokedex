@@ -1,0 +1,204 @@
+.container-pokemon{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 50px;
+    margin-left: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 3px solid lightgrey;
+}
+
+.pokemon-title h1{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    margin-left: 4px;
+    font-size: 35px;
+}
+
+.pokemon-title span{
+   color: gray;
+   font-weight: bolder;
+   margin: 10px;
+}
+.types{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    margin-top: 14px;
+    margin-right: 5px;
+}
+
+.types span{
+    color: white;
+}
+
+.pokemon-details{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.pokemon-details img{
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+.status-container{
+    margin-top: 70px;
+}
+
+.status-container h1{
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.progress-title{
+    text-transform: capitalize;
+}
+
+.pokemon-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.pokemon-info-med{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.pokemon-info-med h1{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pokemon-info-med span{
+  color:red;
+  font-size: 15px;
+}
+
+.abilitys-h1{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.abilitys{
+    display: flex;
+    flex-direction: row;
+}
+.abilitys span{
+    margin-right: 10px;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+@media screen and (max-width: 660px) {
+
+    .container-pokemon{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .pokemon-title{
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        padding-bottom: 20px;
+        border: 3x solid gray;
+    }
+
+    .pokemon-title h1{
+        font-family: 'Montserrat', sans-serif;
+        text-transform: capitalize;
+        margin-left: 4px;
+        font-size: 25px;
+    }
+    
+    .pokemon-title span{
+       color: gray;
+       font-weight: bolder;
+    }
+
+    .types{
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        height: 100%;
+        width: 50%;
+        margin-top: 14px;
+        margin-right: 5px;
+    }
+    
+    .types span{
+        color: white;
+    }
+    .status-container h1{
+        text-transform: capitalize;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        position: relative;
+        top: -40px;
+        right:240px ;
+        left: -110px;
+    }
+
+    .pokemon-details{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .pokemon-details img{
+        margin-top: 50px;
+        width: 400px;
+        width: 50%;
+        height: 400px;
+    }
+    
+    .status-container{
+        width: 40%;
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+
+    .pokemon-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+    .pokemon-info-med{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+    }
+    
+    .pokemon-info-med h1{
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+}
